@@ -9,5 +9,10 @@ fn main() {
     // number = 2;
     // println!("this number is {}", number);
 
-    let _x = 1;
+    let _x = 1; // 忽略变量
+
+    // 变量遮蔽
+    let x = 1;
+    let x = x + 1;
+    println!("this x is {}", x);
 }
